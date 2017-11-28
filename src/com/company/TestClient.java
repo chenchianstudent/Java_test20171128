@@ -56,6 +56,7 @@ public class TestClient extends JFrame {
         panl1.add(btstop);
         panl1.add(btexit);
         textlab.setEnabled(false);
+        btexit.setBackground(new Color(255, 161, 212));
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         textlab.setPreferredSize(new Dimension(80, 100));
         textlab.setLineWrap(true);
